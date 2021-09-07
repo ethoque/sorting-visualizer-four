@@ -1,0 +1,38 @@
+.container{
+    position: absolute;
+    left: 20px;
+    height: 100%;
+    min-width: 1200px;
+    max-width: 1260px;
+
+}
+.bar{
+    width: 2px;
+    background-color: rgb(196, 145, 145);
+    display: inline-block;
+    margin: 0 1px;
+    height: 100px;
+
+}
+
+button {
+    color: purple;
+    font-size: 30px;
+    background-color:red;
+    position: relative;
+  }
+button:hover{
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+button.noClick{
+  background-color:grey;
+  pointer-events: none;
+}
+
+span.noClick{
+  padding:10px;
+  cursor: not-allowed;
+}
+  
